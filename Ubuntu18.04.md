@@ -179,14 +179,14 @@ Dart
 
 ### SSH
 
-    1. `ssh-keygen -t rsa -b 4096`
-    2. `ssh-copy-id $username@$hostname`
+    1. ssh-keygen -t rsa -b 4096
+    2. ssh-copy-id $username@$hostname
 
 ### Github
 
-    1. `ssh-keygen -t rsa -b 4096 -C "email address"`
+    1. ssh-keygen -t rsa -b 4096 -C "email address"
     2. add to github.
-    3. `git remote set-url origin git@github.com:Username/Project.git`
+    3. git remote set-url origin git@github.com:Username/Project.git
 
 ### Note
 
@@ -199,7 +199,7 @@ package: latexmk texlive
 ### Chinese support
 
     1. package: latex-cjk-all texlive-xetex texlive-latex-extra
-    2. `tlmgr install ctex`
+    2. tlmgr install ctex
     3. vscode settings.json
 
 ```
